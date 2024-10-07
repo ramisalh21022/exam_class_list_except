@@ -1,0 +1,8 @@
+from doctors import doctors
+from doctorfamily import doctorfamily
+doc1=doctors("rami",50)
+doc1.yers_stdy()
+doc1.who_paid()
+doc1.works_where()
+doc2=doctorfamily("ahmd",30)
+doc2.who_paid()

@@ -1,0 +1,15 @@
+
+test_file=open("test.txt","r")
+print(test_file.readable())
+#print(test_file.read())
+#for x in test_file.readlines():
+  #print(x)
+print(test_file.readline())
+test_file.close()
+test_file=open("test.txt","a")
+test_file.write("\nnew line سطر جديد")
+test_file.close()
+list=["\nrami here","\nرامي جاء ثؤيبا","\nnow we writing","\nat last line"]
+test_file=open("test.txt","a")
+test_file.writelines(list)
+test_file.close()

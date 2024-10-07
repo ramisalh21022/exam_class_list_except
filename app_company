@@ -1,0 +1,7 @@
+from company import emp
+
+emp1=emp("rami",50,"a",1000,5)
+emp2=emp("ahmad",60,"d",500,3)
+emp1.is_bonus()
+print(emp1.is_excelent())
+print(emp2.is_excelent())
